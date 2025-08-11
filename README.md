@@ -11,7 +11,7 @@ Feel free to use, comment and improve, as long it goes along with the GPL 3.0 li
 #Content (so far)
 - test data (synthetic)
 - python scripts for producing syntehic datasets (first arrival times)(
-- python scripts for evaluating fiste arrival data (without automated curvefitting and inclination, yet)
+- python scripts for evaluating fiste arrival data (without inclination, yet)
 
 #References
 My PhD-Thesis: Niederleithinger, Ernst, 2010: "https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/4708/file/niederleithinger_diss.pdf". Dissertation, Universität Potsdam, https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/4708/file/niederleithinger_diss.pdf
