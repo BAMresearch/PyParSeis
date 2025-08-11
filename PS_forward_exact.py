@@ -14,17 +14,21 @@ using a simple ray tracing and interpolation approach
 
 Based on Niederleithinger 2010 (PhD thesis)
 
-Niederleithinger BAM 8.2 2019
+Original Niederleithinger BAM 8.2 2019
+Last change 11.08.2025 (debugging)
 """
 
-def PSfe(R,D,zs,cp,cs,L,off):
+from math import *
+import numpy as np
+
+def PSfe(R,D,zs,cp,cs,L,off,nsteps=500):
         n=zs.size
-        traveltimes = np.zeros((n,1))
-        zi = np.zeros((500,1))
-        ti = np.zeros((500,1))
+        traveltimes = np.zeros((n))
+        zi = np.zeros((nsteps))
+        ti = np.zeros((nsteps))
     
 # Calculation of traveltimes, upper part (zi<= L)
-        ni = 200
+        ni = int(round(nsteps/2))-1
         dz = L/ni
         for i in range(ni+1): 
         	    z = (i)*dz
@@ -36,7 +40,7 @@ def PSfe(R,D,zs,cp,cs,L,off):
         z=zi[i-1];
 
 # Calculation of traveltimes, lower part 
-        dz = (zs[n]-z)/ni
+        dz = (zs[n-1]-z)/ni
         t1 = sqrt(R*R+L*L)/cp
         for j in range(ni+1):
 	            z2 = z+j*dz
