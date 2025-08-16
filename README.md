@@ -12,15 +12,17 @@ In my PhD thesis , I have deloped a method using curve fitting, using a model, w
 Feel free to use, comment and improve, as long it goes along with the GPL 3.0 license, but on your own risk. No warranties on whatever.
 
 # Content (so far)
-- Test data (synthetic)
-- Python scripts for producing syntehic datasets (first arrival times)(
-- Python scripts for evaluating fiste arrival data (without inclination, yet)
+<ul>
+<li>Test data (synthetic) </li>
+<li>Python scripts for producing syntehic datasets (first arrival times) </li>
+<li>Python scripts for evaluating fiste arrival data (without inclination, yet) </li>
+</ul>
 
 # References
 <ol>
 <li>Niederleithinger, Ernst, 2010: "https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/4708/file/niederleithinger_diss.pdf". Dissertation, Universität Potsdam, https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/4708/file/niederleithinger_diss.pdf</li>
 <li>Main paper: Niederleithinger, Ernst, 2012. „Improvement and extension of the parallel seismic method for foundation depth measurement“. SOILS AND FOUNDATIONS 52 (6): 1093–101. https://doi.org/10.1016/j.sandf.2012.11.023.</li>
-<li></li>ASTM D8381/D8381M-21: Standard Test Methods for Measuring the Depth of Deep Foundations by Parallel Seismic Logging</li>
+<li>ASTM D8381/D8381M-21: Standard Test Methods for Measuring the Depth of Deep Foundations by Parallel Seismic Logging</li>
 </ol>
 Ernst Niederleithinger, 2025, ernst.niederleithinger@bam.de
  
