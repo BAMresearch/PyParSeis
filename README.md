@@ -3,6 +3,9 @@ Python code for Parallel Seismic test valuation (determination of foundation dep
 
 # Purpose
 The Parallel seimic (PS) method ist used to determine the length of foundation piles since decades. A hammer ist used to provide an impact on top of the foundation, generating a stress wave propagating downwards in side the pile. A part of the energy leaks into the soil. Hydrophones or geophones are used to detect this seismic wave in a parallel borehole close to the pile.
+
+![Principle of paralle seismic measurements](/../main/ParSeis-principle.jpg) 
+
 From the recording, the first arrival time is determined and plotted against deetctor depth. In the past, just the depth of the change of slope was used to provide an estimate of pile length (below the pile waves are propagating at a mostly much slower speed in the soil). Unfortunately, this approach leads to an overestimation of pile length, potentially leading to unsafe load capacity extimates. Improved methods have been developed in the early 2000s, e.g. to incorporate the distance between pile and borehole.
 In my PhD thesis , I have deloped a method using curve fitting, using a model, which in addition to wave speed and pile length incorporates pile diameter, distance pile-borehole and pile inclination (actually relative inclination between pile and borehole). See references below. The coding was done first in C, then in Matlab. When my group at BAM slowly moved from Matlab to Python to avoid license cost, I thought it to be worthy to do an exercise on my own and started to recode my results. In 2021, I have provided a version to an engineering firm, who used it in practice and found it useful. Meanwhile, I have contrbuted to an ASTM standard on PS, which mentions the method.  
 
