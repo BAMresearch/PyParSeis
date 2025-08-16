@@ -12,9 +12,9 @@ In my PhD thesis , I have deloped a method using curve fitting, using a model, w
 Feel free to use, comment and improve, as long it goes along with the GPL 3.0 license, but on your own risk. No warranties on whatever.
 
 # Content (so far)
-- test data (synthetic)
-- python scripts for producing syntehic datasets (first arrival times)(
-- python scripts for evaluating fiste arrival data (without inclination, yet)
+- Test data (synthetic)
+- Python scripts for producing syntehic datasets (first arrival times)(
+- Python scripts for evaluating fiste arrival data (without inclination, yet)
 
 # References
 My PhD-Thesis: Niederleithinger, Ernst, 2010: "https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/4708/file/niederleithinger_diss.pdf". Dissertation, Universität Potsdam, https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/4708/file/niederleithinger_diss.pdf
