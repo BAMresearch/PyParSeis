@@ -14,8 +14,8 @@ Feel free to use, comment and improve, as long it goes along with the GPL 3.0 li
 # Content (so far)
 <ul>
 <li>Test data (synthetic) </li>
-<li>Python scripts for producing syntehic datasets (first arrival times) </li>
-<li>Python scripts for evaluating fiste arrival data (without inclination, yet) </li>
+<li>Python scripts for producing synthetic datasets (first arrival times) </li>
+<li>Python scripts for evaluating first arrival data (no with inclination) </li>
 </ul>
 
 # References
@@ -24,5 +24,6 @@ Feel free to use, comment and improve, as long it goes along with the GPL 3.0 li
 <li>Main paper: Niederleithinger, Ernst, 2012. „Improvement and extension of the parallel seismic method for foundation depth measurement“. SOILS AND FOUNDATIONS 52 (6): 1093–101. https://doi.org/10.1016/j.sandf.2012.11.023.</li>
 <li>ASTM D8381/D8381M-21: Standard Test Methods for Measuring the Depth of Deep Foundations by Parallel Seismic Logging</li>
 </ol>
-Ernst Niederleithinger, 2025, ernst.niederleithinger@bam.de
+Ernst Niederleithinger, 2025/2026, ernst.niederleithinger@bam.de
+Last update: 2026-01-31 (lmfit, inclination) 
  
